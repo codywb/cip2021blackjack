@@ -121,7 +121,7 @@ def main():
 
 def conclude_turn(player_score, dealer_score, player_bet, purse):
     """
-    Takes in the current scores, bet, and purse amoutnts and calculates
+    Takes in the current scores, bet, and purse amounts and calculates
     what the new purse value will be.
     :param player_score: current value of player's hand
     :param dealer_score: current valye of dealer's hand
@@ -259,7 +259,6 @@ def get_remaining_cards(deck):
     :param deck: current value of the deck
     :return: the number of cards in the deck
     """
-    #num_cards = len(deck[0]) + len(deck[1]) + len(deck[2]) + len(deck[3])
     num_cards = 0
     for suit in deck:
         num_cards += len(suit)
